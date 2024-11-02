@@ -1,0 +1,24 @@
+/* Ajustes para el contenedor de los detalles del pedido y la imagen */
+.order-details {
+    display: flex;
+    align-items: center; /* Centrar verticalmente los elementos dentro del contenedor */
+    justify-content: flex-start; /* Mantener la alineación horizontal al inicio */
+    gap: 20px; /* Espacio entre imagen y texto */
+}
+
+/* Asegurarse de que la imagen no sea demasiado grande */
+.order-image {
+    flex-shrink: 0; /* Prevenir que la imagen se reduzca más allá del tamaño asignado */
+    width: 150px; /* Tamaño fijo de la imagen */
+}
+
+.order-image img {
+    width: 100%; /* Asegurar que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-info {
+    flex-grow: 1; /* El texto ocupará el resto del espacio disponible */
+}

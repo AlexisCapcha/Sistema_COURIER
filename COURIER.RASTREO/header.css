@@ -1,0 +1,39 @@
+/* Header Styles */
+header {
+    background-color: #e30613;
+    padding: 16px;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header nav a i {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+header nav .border-b-2 {
+    border-bottom: 2px solid white;
+}
+
+header .container .icons i {
+    font-size: 24px;
+    margin-left: 20px;
+}
